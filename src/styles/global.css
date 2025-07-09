@@ -1,0 +1,103 @@
+/* Cores do Tema XP */
+:root {
+  --xp-preto: #000000;
+  --xp-amarelo: #FFB800;
+  --xp-branco: #FFFFFF;
+  --xp-cinza: #F5F5F5;
+}
+
+/* Estilos Globais */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--xp-cinza);
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simulador-container {
+  background-color: var(--xp-branco);
+  border: 3px solid var(--xp-preto);
+  border-radius: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.titulo {
+  color: var(--xp-preto);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.input-group {
+  margin-bottom: 25px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--xp-preto);
+  font-size: 1.1rem;
+}
+
+.input-grande {
+  width: 100%;
+  padding: 12px 15px;
+  border: 2px solid var(--xp-preto);
+  border-radius: 8px;
+  font-size: 1.1rem;
+}
+
+.btn-simular {
+  background-color: var(--xp-amarelo);
+  color: var(--xp-preto);
+  border: none;
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 20px;
+  transition: all 0.3s;
+}
+
+.btn-simular:hover {
+  background-color: #E6A800;
+  transform: translateY(-2px);
+}
+
+.resultado {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: var(--xp-cinza);
+  border-radius: 10px;
+}
+
+.valor-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.valor {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--xp-preto);
+}
+
+.detalhes p {
+  margin: 8px 0;
+  color: #555;
+}

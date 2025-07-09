@@ -1,0 +1,20 @@
+# 💸 Simulador de Financiamento
+
+Este é um projeto em React + Vite com TailwindCSS que simula o valor da parcela mensal de um financiamento, com base no valor financiado, taxa de juros mensal e prazo em meses.
+Preview do projeto:
+https://github.com/Coimbraitalo01/finance-simulator/blob/main/preview.png
+
+
+## 🚀 Tecnologias utilizadas
+
+- React
+- Vite
+- TailwindCSS
+- JavaScript
+
+## 📦 Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/finance-simulator.git
+   cd finance-simulator

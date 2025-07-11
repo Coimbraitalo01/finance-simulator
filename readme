@@ -1,20 +1,33 @@
 # 💸 Simulador de Financiamento
 
-Este é um projeto em React + Vite com TailwindCSS que simula o valor da parcela mensal de um financiamento, com base no valor financiado, taxa de juros mensal e prazo em meses.
-Preview do projeto:
-https://github.com/Coimbraitalo01/finance-simulator/blob/main/preview.png
+![Preview do Simulador](https://raw.githubusercontent.com/Coimbraitalo01/finance-simulator/main/preview.png?raw=true&v=2)
 
+Simulador de financiamento construído com **React + Vite + TailwindCSS** que calcula o valor das parcelas com base no valor financiado, taxa de juros e prazo.
 
-## 🚀 Tecnologias utilizadas
+🔗 [Acesse a aplicação online](https://coimbraitalo01.github.io/finance-simulator/)
 
-- React
-- Vite
-- TailwindCSS
-- JavaScript
+## ✨ Funcionalidades
 
-## 📦 Instalação
+- 📊 Cálculo preciso de parcelas (Sistema Price)
+- ⚡ Resultados em tempo real
+- 🔄 Parâmetros ajustáveis:
+  - Valor total do financiamento
+  - Taxa de juros mensal (%)
+  - Prazo em meses
+- 📱 Design responsivo
+- 🖨️ Opção de imprimir resultados
+
+## 🛠️ Stack Tecnológica
+
+| Tecnologia | Descrição |
+|------------|-----------|
+| [React](https://reactjs.org/) | Biblioteca front-end |
+| [Vite](https://vitejs.dev/) | Build tool moderno |
+| [Tailwind CSS](https://tailwindcss.com/) | Framework CSS utility-first |
+| [React Hook Form](https://react-hook-form.com/) | Validação de formulários |
+
+## 🚀 Como Executar Localmente
 
 1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/finance-simulator.git
-   cd finance-simulator
+```bash
+git clone https://github.com/Coimbraitalo01/finance-simulator.git

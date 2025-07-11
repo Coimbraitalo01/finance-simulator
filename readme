@@ -1,33 +1,38 @@
-# 💸 Simulador de Financiamento
+# 💰 Simulador de Financiamento
 
-![Preview do Simulador](https://raw.githubusercontent.com/Coimbraitalo01/finance-simulator/main/preview.png?raw=true&v=2)
+![Preview do Simulador](https://raw.githubusercontent.com/Coimbraitalo01/finance-simulator/main/preview.png?raw=true&v=3)
 
-Simulador de financiamento construído com **React + Vite + TailwindCSS** que calcula o valor das parcelas com base no valor financiado, taxa de juros e prazo.
+Simulador de parcelas construído com **React + Vite + TailwindCSS** que calcula financiamentos com base em:
+- Valor total
+- Taxa de juros mensal (%)
+- Prazo em meses
 
-🔗 [Acesse a aplicação online](https://coimbraitalo01.github.io/finance-simulator/)
+🔗 [Acesse online](https://coimbraitalo01.github.io/finance-simulator/)
 
 ## ✨ Funcionalidades
 
-- 📊 Cálculo preciso de parcelas (Sistema Price)
-- ⚡ Resultados em tempo real
-- 🔄 Parâmetros ajustáveis:
-  - Valor total do financiamento
-  - Taxa de juros mensal (%)
-  - Prazo em meses
+- 📈 Cálculo preciso (Sistema Price)
+- ⚡ Resultados instantâneos
+- 🎚️ Ajuste de parâmetros:
+  - Valor financiado (R$)
+  - Juros mensal (%)
+  - Período (meses)
 - 📱 Design responsivo
-- 🖨️ Opção de imprimir resultados
+- 🖨️ Exportação de resultados
 
-## 🛠️ Stack Tecnológica
+## 🛠️ Tecnologias
 
-| Tecnologia | Descrição |
-|------------|-----------|
-| [React](https://reactjs.org/) | Biblioteca front-end |
-| [Vite](https://vitejs.dev/) | Build tool moderno |
-| [Tailwind CSS](https://tailwindcss.com/) | Framework CSS utility-first |
-| [React Hook Form](https://react-hook-form.com/) | Validação de formulários |
+| Tecnologia | Uso no Projeto |
+|------------|----------------|
+| [React](https://reactjs.org/) | Componentes principais |
+| [Vite](https://vitejs.dev/) | Build e hot-reload |
+| [Tailwind CSS](https://tailwindcss.com/) | Estilização |
+| [Formik](https://formik.org/) | Controle de formulários |
 
-## 🚀 Como Executar Localmente
+## 🚀 Como Executar
 
-1. Clone o repositório:
 ```bash
 git clone https://github.com/Coimbraitalo01/finance-simulator.git
+cd finance-simulator
+npm install
+npm run dev
